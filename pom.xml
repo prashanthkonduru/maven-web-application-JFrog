@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>maven-web-application</artifactId>
+	<artifactId>maven-web-application-JFrog</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	
-	<name>maven-web-application</name>
+	<name>maven-web-application-JFrog</name>
 
 	<description>Maven Web Project for Java Project</description>
 
@@ -113,12 +113,12 @@
     <snapshotRepository>
         <id>snapshots</id>
         <name>ip-172-31-47-216.ap-south-1.compute.internal-snapshots</name>
-        <url>http://ec2-13-234-59-95.ap-south-1.compute.amazonaws.com:8081/artifactory/libs-snapshot</url>
+        <url>http:3.6.41.58:8081/artifactory/libs-snapshot</url>
     </snapshotRepository>
     </distributionManagement>	
 	
 	<build>
-		<finalName>maven-web-application</finalName>
+		<finalName>maven-web-application-JFrog</finalName>
 		
 		<plugins>
 			<plugin>
@@ -138,7 +138,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/maven-web-application</contextPath>
+						<contextPath>/maven-web-application-JFrog</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
@@ -151,7 +151,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>maven-web-application</wtpContextName>
+					<wtpContextName>maven-web-application-JFrog</wtpContextName>
 				</configuration>
 			</plugin>
 			
