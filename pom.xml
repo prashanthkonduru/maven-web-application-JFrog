@@ -112,12 +112,12 @@
     <distributionManagement>
 	<repository>
         <id>central</id>
-        <name>VAMSI SIR-releases</name>
+        <name>libs-release</name>
         <url>http://ec2-13-232-139-244.ap-south-1.compute.amazonaws.com:8081/:8081/artifactory/vamsi-snapshot</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>VAMSI SIR-snapshots</name>
+        <name>libs-snapshot</name>
         <url>http://ec2-13-232-139-244.ap-south-1.compute.amazonaws.com:8081/:8081/artifactory/vamsi-snapshot</url>
     </snapshotRepository>
     </distributionManagement>	
